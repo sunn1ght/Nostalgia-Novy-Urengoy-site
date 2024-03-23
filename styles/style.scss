@@ -1,0 +1,149 @@
+*{
+  color: rgb(163, 166, 168);
+  font-family: Hometown;
+  font-size: 25px;
+}
+  h1 {
+    font-family: Pixel;
+    font-size: 50px;
+      color: aliceblue;
+  }
+
+  // ========= START BG ==========
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/bg-480.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+ // ========= END BG ================
+
+ // ========= START HEADER ==========
+.header{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 5px solid #424041;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &-info{
+    &-item{
+      font-family: Pixel;
+      font-size: 20px;
+    }
+  }
+  &-logo{
+    &-img{
+      width: 200px;
+      height: auto;
+    }
+  }
+}
+ // ========= END HEADER ==========
+
+ // ========= START MAIN ==========
+  .content {
+    max-width: 60%;
+    margin: 0 auto;
+    background-color: rgba(80, 77, 78, 0.8);
+    padding: 20px;
+  }
+  .section{
+    display: flex;
+    justify-content: space-between;
+    &-main{
+      border: 5px solid #424041;
+      padding: 0px 20px 20px 20px;
+      max-width: 70%;
+      margin-right: 10px;
+      &-title{
+        font-size: 40px;
+      }
+      &-video{
+        text-align: center;
+      }
+      &-link{
+        color: #c0c0c0;
+        font-size: 50px;
+      }
+      &-link:hover{
+        color: #a30b0b;
+        font-size: 50px;
+        transition: border-color 0.5s, background-color 0.5s, color 0.5s
+      }
+    }
+    iframe { 
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
+     }
+
+    &-secondary{
+      max-width: 30%;
+      margin-right: 10px;
+      &-foto{
+        padding-bottom: 10px;
+        flex-grow: 1;
+        &-1{
+          height: auto;
+          width: 100%;
+          border: 5px solid #424041;
+        }
+      }
+    }
+  }
+ // ========= END MAIN ==========
+
+ // ========= START FOOTER ==========
+  .footer{
+    margin-top: 10px;
+    border: 5px solid #424041;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    &-title{
+      font-family: Pixel;
+      font-size: 40px;
+      padding-left: 20px;
+      }
+    &-social-media{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style-type: none;
+       &-item{
+        border: 5px solid #424041;
+        padding: 20px;
+        background-color: rgba(80, 77, 78, 0.8);
+        margin: 0px 10px 10px 10px;
+        flex-grow: 1;
+        text-align: center;
+          &-link{
+            color: #8a8a8a;
+            text-decoration: none;
+            text-align: center;
+        }
+        &-link1{
+          font-size: 40px;
+      }
+       }
+       &-item:hover{
+        border: 5px solid #424041;
+        background-color: rgba(99, 99, 99, 0.8);
+        transition: border-color 0.5s, background-color 0.5s, background-color 0.5s
+       }
+    }
+    &-copyright{
+      text-align:center;
+      margin-bottom: 0;
+    }
+   }
+
+  // ========= END FOOTER ==========
+  
