@@ -1,0 +1,37 @@
+/*===============================================================================*/
+@font-face {
+    font-family: Pixel;
+    src:
+        url(/styles/) format('woff2'),
+        url(fonts/pixel/post_pixel-7.woff) format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Pixel;
+    src:
+        url(fonts/pixel/post_pixel-7.woff2) format('woff2'),
+        url(fonts/pixel/post_pixel-7.woff) format('woff');
+    font-weight: bold;
+    font-display: swap;
+}
+/*===============================================================================*/
+@font-face {
+    font-family: Hometown;
+    src:
+        url(/styles/) format('woff2'),
+        url(fonts/hometown/hometown_memesbruh03.woff) format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Hometown;
+    src:
+        url(fonts/hometown/hometown_memesbruh03.woff2) format('woff2'),
+        url(fonts/hometown/hometown_memesbruh03.woff) format('woff');
+    font-weight: bold;
+    font-display: swap;
+}
+/*===============================================================================*/
